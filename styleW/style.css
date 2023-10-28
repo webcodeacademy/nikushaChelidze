@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    padding: 30px;
+    
+}
+nav {
+    background-color: #600135;
+    border-radius: 45px;
+    width: 1200px;
+}
+ul a {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 24px;
+}
+header img {
+    width: 250px;
+    height: 180px;
+}
+.p1, .p2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #600135; ;
+}
+.winebox, .winebox2, .winebox3, .winebox4 {
+    height: 400px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 50px;
+}
+.box1, .box2, .box3 {
+    height: 370px;
+    width: 300px;
+    text-align: center;
+}
+.box1 img, .box2 img, .box3 img {
+    height: 250px;
+    width: 150px;
+}
+footer p {
+    color: #ffffff;
+}
+.foot {
+    margin-top: 100px;
+    background-color: rgb(96, 1, 53);
+    width: 100%;
+    height: 300px;
+}
+.info {
+    padding: 100px 50px;
+    text-align: center;
+}
+.find {
+    width: 150px;
+    margin-left: 680px;
+}
+.find img {
+    width: 30px;
+    height: 30px;
+}
+.end {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(66, 2, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messagebutton {
+    width: 300px;
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    border-radius: 45px;
+}
+.messagebutton:hover, .send:hover{
+    background-color: rgb(151, 9, 87);
+    cursor: pointer;
+}
+.messagebox {
+    background-color: #999898;
+    padding: 10px;
+    width: 300px;
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    display: none;
+}
+.messageboxheader{
+    border-bottom: 1px solid #000000 ;
+}
+.close {
+    padding: 10px;
+}
+.close:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.messageboxmain{
+    padding-top: 10px;
+}
+.messageboxmain input, .messageboxmain textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    resize: none;
+}
+.send, .messagebutton {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(179, 4, 100);
+    color: #ffffff;
+}
+.send {
+    width: 100%;
+}
+@media (max-width: 820px) {
+    header {
+        padding: 15px;
+    }
+    nav {
+        background-color: #600135;
+        border-radius: 45px;
+        width: 1200px;
+    }
+    ul a {
+        color: #ffffff;
+        padding: 15px;
+        font-size: 16px;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    .p1, .p2 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+        color: #600135; ;
+    }
+    .winebox, .winebox2, .winebox3, .winebox4 {
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding: 50px;
+    }
+    .messagebutton {
+        width: 200px;
+        bottom: 20px;
+        position: fixed;
+        right: 20px;
+        border-radius: 45px;
+        font-size: 12px;
+    }
+    .messagebox {
+        background-color: #999898;
+        padding: 10px;
+        width: 200px;
+        bottom: 20px;
+        position: fixed;
+        right: 20px;
+        display: none;
+        font-size: 12px;
+    }
+    .find {
+        width: 150px;
+        position: absolute;
+        right: 40%;
+    }
+    .find p {
+        font-size: 12px;
+    }
+    .info p {
+        font-size: 12px;
+    }
+  }
